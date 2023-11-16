@@ -8,7 +8,7 @@ OPÇÕES:
 
 O programa poderá ser executado várias vezes até o usuário desejar sair.
 
-Nesse programa utilizei 4 variaveis, sendo as mesmas: 2 inteiras e 2 floats
+Nesse programa importei a biblioteca locale.h para mudar o idioma para português e poder utilizar acentos e utilizei 4 variaveis, sendo as mesmas: 2 inteiras e 2 floats
 
 float saldo = 0, Como o nome ja diz utilizei essa variavel para guardar o saldo do utilizador, que quando iniciado é automaticamente zerado.
 float tran = 0, Essa variavel foi utilizada para guardar o valor da transação, seja ela de saque ou deposito.
