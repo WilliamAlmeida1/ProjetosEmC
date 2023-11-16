@@ -24,10 +24,10 @@ int main(){
             scanf("%f", &tran);
             if(tran<=saldo){
                 saldo = saldo - tran;
+                printf("Saque concluído! Novo saldo: %.2f\n\n", saldo);
             }else{
                 printf("Saldo insuficiente para realizar o saque!!!\n\n");
             }
-            printf("Saque concluído! Novo saldo: %.2f\n\n", saldo);
             break;
         case 4:
             printf("Saindo do sistema!!!\n\n");
