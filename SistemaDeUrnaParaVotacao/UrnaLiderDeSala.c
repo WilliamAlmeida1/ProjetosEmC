@@ -3,7 +3,7 @@
 
 int main(){
     setlocale(LC_ALL, "Portuguese");
-    int candidatos[5] = {0,0,0,0,0}, pessoas, voto, contador = 1, vencedor;
+    int candidatos[5] = {0,0,0,0,0}, pessoas, voto, contador = 1;
     printf("Digite a quantidade de pessoas que irão votar: ");
     scanf("%d", &pessoas);
     while(contador <= pessoas){
