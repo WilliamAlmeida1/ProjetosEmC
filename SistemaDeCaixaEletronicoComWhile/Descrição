@@ -1,1 +1,19 @@
+Escreva um programa de caixa eletrônico, mostrando o seguinte menu:
 
+OPÇÕES:
+1 - CONSULTAR SALDO
+2 - DEPÓSITO
+3 - SAQUE
+4 - SAIR
+
+O programa poderá ser executado várias vezes até o usuário desejar sair.
+
+Nesse programa utilizei 4 variaveis, sendo as mesmas: 2 inteiras e 2 floats
+
+float saldo = 0, Como o nome ja diz utilizei essa variavel para guardar o saldo do utilizador, que quando iniciado é automaticamente zerado.
+float tran = 0, Essa variavel foi utilizada para guardar o valor da transação, seja ela de saque ou deposito.
+int operacao = 0, Aqui é guardada a opção de operação que vai feita pelo usuário, como mostrar saldo, ou depositar uma quantia.
+int sair = 0, Nessa variavel, é guardado um 0 que é utilizado como condição no while, enquanto for 0 ele vai continuar rodando o código.
+
+Enquanto a variavel sair for igual a 0 o codigo irá ficar em loop pedindo o codigo da operação a ser realizada e realizando a mesma logo em seguida,
+exemplo: caso o valor da opção digitada for 1 ele irá mostrar o saldo do usuário e quando a opção digitada for 4 ele vai alterar o valor da variavel int sair, fazendo com que o while pare de rodar.
