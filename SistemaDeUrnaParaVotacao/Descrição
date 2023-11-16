@@ -1,0 +1,22 @@
+Escreva um programa que calcula quem foi o líder de sala, o algoritmo deve apresentar o menu:
+CANDIDATOS:
+1 - AILSON SALVIANO
+2 - DANIS DANIEL
+3 - KAMILLE PAULINO
+4 - NULO
+
+Deverá ser lido o número de pessoas votantes, e seus votos, logo após deve ser mostrado a quantidade de votos de cada candidato e quem foi eleito.
+---
+
+Nesse código, importei a biblioteca locale.h para poder utilizar acentuação nas palavras, a principio utilizo 4 variaveis:
+
+int candidatos[5] = {0,0,0,0,0}, criei esse vetor para guardar a quantidade de votos de cada candidato.
+int pessoas, usei essa variável para receber a quantidade de pessoas que iriam votar.
+int voto, essa variável foi utilizada para guardar temporariamento o voto das pessoas(temporariamente pois a cada pessoa que vota o valor é alterado).
+int contador = 1, essa variavel foi criada para ser utilizada como contador que vai contar quantas vezes o voto será realizado.
+
+Primeiramente é recebido a quantidade de pessoas que irão votar utilizando do programa, e depois dentro de uma estrutura
+de repetição while é realizado a pergunta em relação em quem você vai votar, juntamente, há uma estrutura switch para ver qual candidato vai receber o voto
+exemplo: caso a pessoa digite 1, um voto será adicionado ao candidatos[1].
+
+No final é dito quantos votos cada candidato recebeu e se houve empate ou um ganhador, a verificação é feita através de um IF-ELSE.
